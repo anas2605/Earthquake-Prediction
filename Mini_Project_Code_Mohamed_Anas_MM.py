@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-file_path='C:/Users/jenniferw4/Downloads/train.csv/train.csv'
+file_path='C:/Users/MOHAMED ANAS/Downloads/train.csv/train.csv'
 df = pd.read_csv(file_path)
 print(df.head())
 
